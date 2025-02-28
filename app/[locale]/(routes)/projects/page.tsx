@@ -9,7 +9,8 @@ import { Session } from "next-auth";
 import ProjectsView from "./_components/ProjectsView";
 import SuspenseLoading from "@/components/loadings/suspense";
 
-export const maxDuration = 300;
+// export const maxDuration = 300;
+export const maxDuration = 60;
 
 const ProjectsPage = async () => {
   const session: Session | null = await getServerSession(authOptions);
