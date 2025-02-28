@@ -6,7 +6,8 @@ import { Session } from "next-auth";
 import { Client as NotionClient } from "@notionhq/client";
 import moment from "moment";
 
-export const maxDuration = 300;
+// export const maxDuration = 300;
+export const maxDuration = 60;
 
 type NotionItem = {
   id: string;

@@ -21,7 +21,8 @@ interface BoardDetailProps {
   params: Promise<{ boardId: string }>;
 }
 
-export const maxDuration = 300;
+// export const maxDuration = 300;
+export const maxDuration = 60;
 
 const BoardPage = async (props: BoardDetailProps) => {
   const params = await props.params;
